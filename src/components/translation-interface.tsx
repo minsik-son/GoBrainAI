@@ -168,7 +168,7 @@ export default function TranslationInterface({ isPremium = false }) {
             {/* Source Text */}
             <div className="border-r relative">
               {/* Source Language Selector */}
-              <div className="p-3 border-b flex justify-between items-center">
+              <div className="p-3 border-b flex justify-between items-center h-14">
                 <div className="relative">
                   <button
                     className="flex items-center gap-1 text-sm font-medium"
@@ -274,7 +274,7 @@ export default function TranslationInterface({ isPremium = false }) {
             {/* Translated Text */}
             <div className="relative">
               {/* Target Language Selector */}
-              <div className="p-3 border-b flex justify-between items-center">
+              <div className="p-3 border-b flex justify-between items-center h-14">
                 <div className="relative">
                   <button
                     className="flex items-center gap-1 text-sm font-medium"
